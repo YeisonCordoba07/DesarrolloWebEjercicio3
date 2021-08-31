@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrant', 'open sans';
+    background-color: #060818;
+    color:white;
+}
+
+
+
+/*-------------------------|NAV|-------------------------*/
+.div_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000020;
+}
+.div_header nav{
+    display:inline-block;
+    flex-direction: row;
+}
+.div_header nav a{
+    margin-right: 30px;
+     color: white;
+     text-decoration: none;
+     font-weight: bolder;
+}
+#contenedor_a{
+    display: inline-block;
+}
+.div_header nav a:hover{
+    text-decoration: underline;
+}
+#a_cursos{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    padding: 8px 20px;
+    border-color: #00FFFF;
+    color: #00FFFF;
+}
+.div_header nav p{
+    font-weight: lighter;
+}
+#span_logo{
+    background-image: url("img/logo perfil.jpg");
+    padding: 10px 25px;
+}
+/*-------------------------||-------------------------*/
+
+
+/*---------------------|PORTADAS|---------------------*/
+.div_portadas{
+    position: relative;
+    padding: 30px 0;
+    margin: auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+#imagenes_de_portada{
+    object-fit: cover;
+    width: 90%;
+}
+/*-------------------------||-------------------------*/
+
+
+/*---------------|VISTOS RECIENTEMENTE|---------------*/
+.contenedor_videos_vistos{
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+#span_libro{
+    background-image: url("img/libro.jpg");
+    padding: 16px 50px;
+    background-repeat: no-repeat;
+}
+/*-------------------------||-------------------------*/
+.titulos{
+    font-size: 30px;
+}
+
+/*----------------------|CURSOS|----------------------*/
+.contenedor_cursos{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    margin: auto;
+}
+.cursos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.div_cursos{
+    background-image: url("img/miniatura cursos.jpg");
+    width: 30%;
+    height: 200px;
+	box-shadow: 0 0 6px rgba(0,0,0, 0.5);
+    margin-bottom: 30px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+/*-------------------------||-------------------------*/
+
+
+/*----------------------|FOOTER|----------------------*/
+footer{
+    background-color: #002856;
+}
+.contenedor_del_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.elemento_footer{
+    width: 18%;
+}
+.elemento_footer img{
+    width: 100%;
+}
+/*-------------------------||-------------------------*/
