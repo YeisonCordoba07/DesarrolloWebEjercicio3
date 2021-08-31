@@ -98,14 +98,48 @@ body{
     justify-content: space-evenly;
 }
 .div_cursos{
-    background-image: url("img/miniatura cursos.jpg");
-    width: 30%;
-    height: 200px;
+    background-image: url("/img/miniatura\ \ cursos.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 28%;
+    min-width: 360px;
+    height: 260px;
 	box-shadow: 0 0 6px rgba(0,0,0, 0.5);
     margin-bottom: 30px;
     border-color: white;
     border-style: solid;
     border-width: 1px;
+    border-radius: 5px;
+    position:relative;
+    /*filter: blur(1px);*/
+}
+.div_cursos:hover{
+    border-color:#00FFFF;
+}
+.div_cursos h1{
+    font-weight: bolder;
+    padding-left: 30px;
+    filter:none;
+    color:#002856;
+}
+#contenido{
+    padding-bottom: 50px;
+}
+.flecha_cursos{
+    display: flex;
+    position:absolute;
+    background-color: #00FFFF;
+    padding: 5px 18px;
+    border-radius: 50%;
+    top: 70%;
+    right: 5%;
+
+    font-weight: bolder;
+    font-size:200%;
+    justify-content: center;
+    align-items: center;
+    color:#000020;
+    filter:none;
 
 }
 /*-------------------------||-------------------------*/
@@ -114,6 +148,7 @@ body{
 /*----------------------|FOOTER|----------------------*/
 footer{
     background-color: #002856;
+    padding: 200px;
 }
 .contenedor_del_footer{
     display: flex;
